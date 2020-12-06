@@ -1,0 +1,21 @@
+{
+  "name": "min-ty",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "eleventy --serve",
+    "watch": "eleventy --watch",
+    "build": "eleventy",
+    "debug": "DEBUG=* eleventy",
+    "clear": "rm -r dist"
+  },
+  "author": "https://github.com/chuduk-alex",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/chuduk-alex/min-ty.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "luxon": "^1.25.0"
+  }
+}
