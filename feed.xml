@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Min-ty blog template</title>
+	<subtitle>Min-ty blog description</subtitle>
+	<link href="https://example.com/min-ty/feed.xml" rel="self"/>
+	<link href="https://example.com/"/>
+	<updated>2020-12-06T00:00:00+00:00</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>Your Name Here</name>
+		<email>youremailaddress@example.com</email>
+	</author>
+	
+	<entry>
+		<title>Markdown Demo</title>
+		<link href="https://example.com/min-ty/markdown-demo/"/>
+		<updated>2020-12-06T00:00:00+00:00</updated>
+		<id>https://example.com/min-ty/markdown-demo/</id>
+		<content type="html">&lt;p&gt;This page contains demo text from &lt;a href=&quot;https://markdown-it.github.io/&quot;&gt;markdown-it.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;h1 Heading 8-)&lt;/h1&gt;
+&lt;h2&gt;h2 Heading&lt;/h2&gt;
+&lt;h3&gt;h3 Heading&lt;/h3&gt;
+&lt;h4&gt;h4 Heading&lt;/h4&gt;
+&lt;h5&gt;h5 Heading&lt;/h5&gt;
+&lt;h6&gt;h6 Heading&lt;/h6&gt;
+&lt;h2&gt;Horizontal Rules&lt;/h2&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h2&gt;Typographic replacements&lt;/h2&gt;
+&lt;p&gt;Enable typographer option to see result.&lt;/p&gt;
+&lt;p&gt;(c) (C) (r) (R) (tm) (TM) (p) (P) +-&lt;/p&gt;
+&lt;p&gt;test.. test... test..... test?..... test!....&lt;/p&gt;
+&lt;p&gt;!!!!!! ???? ,,  -- ---&lt;/p&gt;
+&lt;p&gt;&amp;quot;Smartypants, double quotes&amp;quot; and &#39;single quotes&#39;&lt;/p&gt;
+&lt;h2&gt;Emphasis&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;Strikethrough&lt;/s&gt;&lt;/p&gt;
+&lt;h2&gt;Blockquotes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Blockquotes can also be nested...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...by using additional greater-than signs right next to each other...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...or with spaces between arrows.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Lists&lt;/h2&gt;
+&lt;p&gt;Unordered&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a list by starting a line with &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, or &lt;code&gt;*&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Sub-lists are made by indenting 2 spaces:
+&lt;ul&gt;
+&lt;li&gt;Marker character change forces new list start:
+&lt;ul&gt;
+&lt;li&gt;Ac tristique libero volutpat at&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Facilisis in pretium nisl aliquet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;Nulla volutpat aliquam velit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Very easy!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ordered&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Consectetur adipiscing elit&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Integer molestie lorem at massa&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You can use sequential numbers...&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;...or keep all the numbers as &lt;code&gt;1.&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Start numbering with offset:&lt;/p&gt;
+&lt;ol start=&quot;57&quot;&gt;
+&lt;li&gt;foo&lt;/li&gt;
+&lt;li&gt;bar&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Code&lt;/h2&gt;
+&lt;p&gt;Inline &lt;code&gt;code&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Indented code&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Block code &amp;quot;fences&amp;quot;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Sample text here...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Syntax highlighting&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Tables&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Option&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;data&lt;/td&gt;
+&lt;td&gt;path to data files to supply the data that will be passed into templates.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;engine&lt;/td&gt;
+&lt;td&gt;engine to be used for processing templates. Handlebars is the default.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ext&lt;/td&gt;
+&lt;td&gt;extension to be used for dest files.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Right aligned columns&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:right&quot;&gt;Option&lt;/th&gt;
+&lt;th style=&quot;text-align:right&quot;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;data&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;path to data files to supply the data that will be passed into templates.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;engine&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;engine to be used for processing templates. Handlebars is the default.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;ext&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;extension to be used for dest files.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://dev.nodeca.com/&quot;&gt;link text&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://nodeca.github.io/pica/demo/&quot; title=&quot;title text!&quot;&gt;link with title&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Autoconverted link https://github.com/nodeca/pica (enable linkify to see)&lt;/p&gt;
+&lt;h2&gt;Images&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://octodex.github.com/images/minion.png&quot; alt=&quot;Minion&quot;&gt;
+&lt;img src=&quot;https://octodex.github.com/images/stormtroopocat.jpg&quot; alt=&quot;Stormtroopocat&quot; title=&quot;The Stormtroopocat&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Like links, Images also have a footnote style syntax&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://octodex.github.com/images/dojocat.jpg&quot; alt=&quot;Alt text&quot; title=&quot;The Dojocat&quot;&gt;&lt;/p&gt;
+&lt;p&gt;With a reference later in the document defining the URL location:&lt;/p&gt;
+&lt;h2&gt;Plugins&lt;/h2&gt;
+&lt;p&gt;The killer feature of &lt;code&gt;markdown-it&lt;/code&gt; is very effective support of
+&lt;a href=&quot;https://www.npmjs.org/browse/keyword/markdown-it-plugin&quot;&gt;syntax plugins&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-emoji&quot;&gt;Emojies&lt;/a&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:&lt;/p&gt;
+&lt;p&gt;Shortcuts (emoticons): :-) :-( 8-) ;)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;see &lt;a href=&quot;https://github.com/markdown-it/markdown-it-emoji#change-output&quot;&gt;how to change output&lt;/a&gt; with twemoji.&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-sub&quot;&gt;Subscript&lt;/a&gt; / &lt;a href=&quot;https://github.com/markdown-it/markdown-it-sup&quot;&gt;Superscript&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;19^th^&lt;/li&gt;
+&lt;li&gt;H~2~O&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-ins&quot;&gt;&amp;lt;ins&amp;gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;++Inserted text++&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-mark&quot;&gt;&amp;lt;mark&amp;gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;==Marked text==&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-footnote&quot;&gt;Footnotes&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Footnote 1 link[^first].&lt;/p&gt;
+&lt;p&gt;Footnote 2 link[^second].&lt;/p&gt;
+&lt;p&gt;Inline footnote^[Text of inline footnote] definition.&lt;/p&gt;
+&lt;p&gt;Duplicated footnote reference[^second].&lt;/p&gt;
+&lt;p&gt;[^first]: Footnote &lt;strong&gt;can have markup&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;and multiple paragraphs.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;[^second]: Footnote text.&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-deflist&quot;&gt;Definition lists&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Term 1&lt;/p&gt;
+&lt;p&gt;:   Definition 1
+with lazy continuation.&lt;/p&gt;
+&lt;p&gt;Term 2 with &lt;em&gt;inline markup&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;:   Definition 2&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    { some code, part of Definition 2 }
+
+Third paragraph of definition 2.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Compact style:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Term 1
+~ Definition 1&lt;/p&gt;
+&lt;p&gt;Term 2
+~ Definition 2a
+~ Definition 2b&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-abbr&quot;&gt;Abbreviations&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is HTML abbreviation example.&lt;/p&gt;
+&lt;p&gt;It converts &amp;quot;HTML&amp;quot;, but keep intact partial entries like &amp;quot;xxxHTMLyyy&amp;quot; and so on.&lt;/p&gt;
+&lt;p&gt;*[HTML]: Hyper Text Markup Language&lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-container&quot;&gt;Custom containers&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;::: warning
+&lt;em&gt;here be dragons&lt;/em&gt;
+:::&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Lorem ipsum</title>
+		<link href="https://example.com/min-ty/lorem/"/>
+		<updated>2020-12-04T00:00:00+00:00</updated>
+		<id>https://example.com/min-ty/lorem/</id>
+		<content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit laoreet metus vitae molestie. Praesent vel lacus eget lectus auctor vestibulum ut volutpat sapien. Morbi convallis lacinia odio. Nunc semper pulvinar eros. Donec laoreet lacinia dui, vel porta tellus ultricies nec. Nulla consequat lectus eu massa egestas, ac maximus velit tempus. Cras vulputate lorem pretium quam lobortis, eget pulvinar eros laoreet. Fusce vel dignissim mauris, eget tempor dui. Fusce rutrum metus ac est faucibus, at mattis tortor cursus. Praesent dapibus, lacus nec commodo suscipit, nibh justo ultricies velit, ut accumsan erat lacus sed lectus. Fusce quis consequat ipsum. Vestibulum massa elit, efficitur dictum ligula vehicula, posuere semper magna. Vestibulum egestas gravida convallis. Donec egestas vitae nulla id aliquam. Proin non ante at ex lacinia semper ut sed dui. Nullam lacinia viverra magna, at feugiat nunc auctor vel.&lt;/p&gt;
+&lt;p&gt;Etiam pretium turpis id tellus vestibulum blandit. Vivamus maximus placerat eros ut laoreet. Vestibulum vel congue velit, quis aliquet enim. Nunc quis ex ipsum. Integer lectus nisi, posuere vitae arcu quis, gravida suscipit nibh. Fusce luctus mauris non justo varius, eu aliquet metus sagittis. Curabitur ut sollicitudin enim. Sed ipsum ipsum, tincidunt eu mattis id, viverra id arcu. Nunc sodales vestibulum lectus commodo sollicitudin. Phasellus ac urna interdum, porttitor ex id, malesuada libero. Vivamus nec facilisis diam. Pellentesque libero risus, vehicula ac interdum eu, egestas ut est.&lt;/p&gt;
+&lt;p&gt;Ut ac ornare lorem. Aliquam orci lacus, hendrerit ut magna sed, aliquam pellentesque eros. Vivamus vehicula nisi elementum ex scelerisque dictum ac in est. Praesent velit magna, sagittis at tincidunt vel, condimentum vel mauris. Nulla vestibulum ornare scelerisque. Integer nec pretium felis. Aliquam erat volutpat. Ut sit amet metus vitae augue pellentesque pellentesque. Cras justo neque, facilisis ut nibh imperdiet, cursus malesuada odio.&lt;/p&gt;
+&lt;p&gt;Donec egestas nunc tristique nunc fringilla, et iaculis arcu tincidunt. Fusce consequat, odio eu pretium ultricies, dui nisl semper lacus, in congue augue dui ut ante. Proin turpis lorem, condimentum sed sapien quis, lobortis sagittis nibh. Ut non pharetra mauris. Mauris tempor, dolor quis fermentum consequat, magna mi auctor nunc, porttitor condimentum est purus nec arcu. Nulla vel placerat est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur porttitor a leo vel tempus. Nunc sit amet convallis magna. Maecenas quam ante, condimentum a tortor vitae, tristique porttitor neque. In at velit efficitur justo vehicula rhoncus. Vestibulum ut feugiat lorem.&lt;/p&gt;
+&lt;p&gt;Mauris sit amet erat nunc. Sed ac sollicitudin felis. Donec in ornare turpis. Etiam id massa felis. Suspendisse potenti. Curabitur mattis dolor vel lorem fermentum, a malesuada dolor laoreet. Vivamus quis vulputate dolor. Nulla non sapien ligula. Sed consectetur dui sed lectus facilisis tempor. Suspendisse ac tellus vel tortor gravida pulvinar eleifend vitae tellus. Pellentesque urna odio, placerat vel posuere a, ornare sit amet arcu. In hac habitasse platea dictumst. Vestibulum malesuada ante lorem, nec volutpat sapien elementum ut. Maecenas pellentesque, ante ut tincidunt semper, urna velit consectetur quam, eget cursus sem orci a nisl.&lt;/p&gt;
+&lt;p&gt;Nulla facilisi. Etiam eget suscipit nunc. Proin pharetra arcu in malesuada posuere. Morbi semper posuere nisl. Aenean vel tellus sit amet nisi fringilla convallis condimentum in lectus. Praesent ultricies massa sit amet urna aliquam efficitur. In porta finibus ligula, quis egestas lacus congue at. Morbi felis nulla, dignissim nec placerat at, commodo at magna. Maecenas eu est eu eros bibendum convallis. Aliquam a mollis purus.&lt;/p&gt;
+&lt;p&gt;Sed et pellentesque lacus, non tempus lacus. Mauris at gravida purus. Integer tempus velit ac vulputate euismod. Nam feugiat quis nibh vel venenatis. Donec suscipit elit quis eros dapibus maximus. Ut id leo bibendum ex iaculis ornare. Sed pretium odio ac purus blandit, id vestibulum diam varius. Vestibulum laoreet diam sit amet iaculis laoreet. Duis ultricies accumsan lectus, sit amet tristique leo porta non. Proin dictum sem in metus eleifend, sed vulputate lorem blandit. Ut eu quam at ex efficitur vestibulum at cursus leo. Sed malesuada, libero vel blandit aliquet, sem nunc tincidunt turpis, bibendum bibendum purus diam eu justo. Aenean vulputate magna metus, in tincidunt nunc commodo quis. In nec ex ut ipsum accumsan pulvinar.&lt;/p&gt;
+&lt;p&gt;In risus leo, mollis a ultrices ac, laoreet eu elit. Curabitur sollicitudin euismod sagittis. Nam sed dignissim erat, et egestas est. Interdum et malesuada fames ac ante ipsum primis in faucibus. In ultrices arcu quis cursus suscipit. Praesent egestas nunc ut sapien luctus, at dapibus nibh viverra. Aenean dignissim magna id massa pharetra luctus. Fusce ut nunc nec ante ultricies tincidunt.&lt;/p&gt;
+&lt;p&gt;Maecenas viverra blandit condimentum. Vestibulum porttitor, arcu dictum placerat gravida, eros quam gravida dui, nec facilisis felis leo sed nisi. Etiam id aliquet sapien. Nulla non metus finibus eros commodo sollicitudin. Cras feugiat enim turpis, quis rhoncus ipsum malesuada malesuada. Nam mattis, nibh in luctus convallis, ex quam tincidunt massa, sed cursus dolor eros facilisis urna. Fusce in ligula justo. Nulla et pharetra risus. In ante augue, vehicula nec interdum at, scelerisque nec ligula. Morbi nec accumsan enim. Vestibulum suscipit, massa ac pretium varius, justo metus porta mauris, pulvinar rhoncus justo tortor et neque. Vestibulum finibus vestibulum mi, mattis finibus ex egestas sed. Quisque nisl urna, faucibus ut tincidunt quis, facilisis vel lectus.&lt;/p&gt;
+&lt;p&gt;Duis quis imperdiet metus. Donec dignissim justo ut accumsan posuere. Phasellus mollis diam ut congue pretium. Duis tortor sem, sagittis non scelerisque in, tempus quis turpis. Vestibulum semper dolor id lobortis commodo. Aenean vitae convallis turpis. Suspendisse nisi arcu, congue id augue nec, placerat gravida diam. Pellentesque tortor urna, ornare nec nibh quis, dapibus gravida sapien. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque ante quam, congue ac felis vitae, vulputate tempus felis. Nunc quis leo ut mi tincidunt facilisis vel ut ante. Pellentesque interdum elementum eros nec faucibus. Etiam pharetra et orci eu cursus. Nam nisl nunc, ultricies sit amet facilisis auctor, volutpat vitae quam. Curabitur fermentum neque leo.&lt;/p&gt;
+</content>
+	</entry>
+</feed>
