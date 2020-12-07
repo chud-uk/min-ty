@@ -1,6 +1,7 @@
 const fs = require('fs')
 
-const { DateTime } = require("luxon")
+const { DateTime } = require('luxon')
+const pluginRss = require('@11ty/eleventy-plugin-rss')
 
 const input = 'src'
 const output = 'dist'
@@ -10,8 +11,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ [`${input}/_static`]: '.' })
 
-  eleventyConfig.addFilter("readableDate", dateObj =>
-    DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat("LLL dd, yyyy"))
+  eleventyConfig.addFilter('readableDate', dateObj =>
+    DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('LLL dd, yyyy'))
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) =>
@@ -30,6 +31,8 @@ module.exports = function(eleventyConfig) {
     ui: false,
     ghostMode: false
   })
+
+  eleventyConfig.addPlugin(pluginRss)
 
   return {
     dir: {
