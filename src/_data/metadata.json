@@ -1,4 +1,12 @@
 {
   "title": "Min-ty blog template",
-  "discription": "Min-ty blog discription"
+  "description": "Min-ty blog description",
+  "url": "https://example.com/",
+  "xmlFeedPath":  "/feed.xml",
+  "jsonFeedPath": "/feed.json",
+  "author": {
+    "name": "Your Name Here",
+    "email": "youremailaddress@example.com",
+    "url": "https://example.com/about"
+  }
 }
