@@ -1,5 +1,6 @@
 {
   "name": "min-ty",
+  "description": "A starter repository for a minimalistic blog using the Eleventy static site generator",
   "version": "0.0.1",
   "scripts": {
     "start": "eleventy --serve",
@@ -13,6 +14,7 @@
     "type": "git",
     "url": "https://github.com/chuduk-alex/min-ty.git"
   },
+  "homepage": "https://chuduk-alex.github.io/min-ty",
   "license": "Unlicense",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
