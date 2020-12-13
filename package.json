@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/chuduk-alex/min-ty.git"
   },
-  "license": "ISC",
+  "license": "Unlicense",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-plugin-rss": "^1.0.9",
