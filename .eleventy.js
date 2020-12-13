@@ -19,6 +19,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('htmlDateString', (dateObj) =>
     DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd'))
 
+  eleventyConfig.addPairedShortcode('ifContentWithCode', function(innerTemplate, content) {
+    return content.includes('</code>') ? innerTemplate : ''
+  })
+
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function(_err, browserSync) {
