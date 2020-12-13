@@ -1,4 +1,4 @@
-name: build and deploy to github pages
+name: build and perform lighthouse check
 
 on:
   push:
@@ -7,7 +7,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
@@ -20,15 +19,16 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build site with pathprefix for hosting on github pages
-        run: npm run build -- --pathprefix="/min-ty/"
+      - name: Build site
+        run: npm run build
 
-  deploy:
+  check:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: GitHub Pages action
-        uses: peaceiris/actions-gh-pages@v3.7.3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+      - name: run Lighthouse CI
+        run: |
+          npm install -g @lhci/cli@0.6.x
+          lhci autorun
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
