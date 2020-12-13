@@ -23,10 +23,6 @@ jobs:
       - name: Build site with pathprefix for hosting on github pages
         run: npm run build -- --pathprefix="/min-ty/"
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
