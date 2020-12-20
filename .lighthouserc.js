@@ -8,7 +8,7 @@ module.exports = {
       preset: 'lighthouse:no-pwa',
       assertions: {
         'unsized-images': 'warn',
-        'errors-in-console': 'warn',
+        'uses-responsive-images': 'warn',
       },
     },
     upload: {
