@@ -4,16 +4,10 @@ const { DateTime } = require('luxon')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const markdownIt = require('markdown-it')
-const markdownItAnchor = require('markdown-it-anchor')
-const markdownItToc = require('markdown-it-toc-done-right')
-const uslug = require('uslug')
+const markdownItImageLazyLoading = require('markdown-it-image-lazy-loading')
 
 const input = 'src'
 const output = 'dist'
-
-function uslugify(s) {
-  return uslug(s);
-}
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('post', '_layouts/post')
@@ -52,15 +46,7 @@ module.exports = function(eleventyConfig) {
     html: true,
     breaks: true,
     linkify: true,
-  }).use(markdownItAnchor, {
-    permalink: true,
-    permalinkSymbol: '#',
-    slugify: uslugify,
-  }).use(markdownItToc, {
-    slugify: uslugify,
-    renderTocOpen: () => '<p><details><summary>Table of contents</summary><nav>',
-    renderTocClose: () => '</nav></details></p>'
-  })
+  }).use(markdownItImageLazyLoading)
   eleventyConfig.setLibrary('md', markdownLibrary)
 
   return {

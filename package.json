@@ -22,8 +22,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.4",
     "luxon": "^1.25.0",
     "markdown-it": "^10.0.0",
-    "markdown-it-anchor": "^6.0.1",
-    "markdown-it-toc-done-right": "git:github.com/chuduk-alex/markdown-it-toc-done-right.git",
+    "markdown-it-image-lazy-loading": "^1.0.2",
     "uslug": "^1.0.4"
   }
 }
