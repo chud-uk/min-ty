@@ -18,9 +18,9 @@
   "license": "Unlicense",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "@11ty/eleventy-plugin-rss": "^1.0.9",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.4",
-    "luxon": "^1.25.0",
+    "@11ty/eleventy-plugin-rss": "^1.1.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
+    "luxon": "^1.26.0",
     "markdown-it": "^10.0.0",
     "markdown-it-image-lazy-loading": "^1.0.2",
     "uslug": "^1.0.4"
