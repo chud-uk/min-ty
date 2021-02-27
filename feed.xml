@@ -4,7 +4,7 @@
 	<subtitle>Min-ty blog description</subtitle>
 	<link href="https://example.com/min-ty/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2020-12-06T00:00:00+00:00</updated>
+	<updated>2020-12-06T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
@@ -14,7 +14,7 @@
 	<entry>
 		<title>Markdown Demo</title>
 		<link href="https://example.com/min-ty/markdown-demo/"/>
-		<updated>2020-12-06T00:00:00+00:00</updated>
+		<updated>2020-12-06T00:00:00Z</updated>
 		<id>https://example.com/min-ty/markdown-demo/</id>
 		<content type="html">&lt;p&gt;[toc]&lt;/p&gt;
 &lt;p&gt;This page contains demo text from &lt;a href=&quot;https://markdown-it.github.io/&quot;&gt;markdown-it.github.io&lt;/a&gt;&lt;/p&gt;
@@ -25,9 +25,9 @@
 &lt;h5&gt;h5 Heading&lt;/h5&gt;
 &lt;h6&gt;h6 Heading&lt;/h6&gt;
 &lt;h2&gt;Horizontal Rules&lt;/h2&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;hr&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
 &lt;h2&gt;Typographic replacements&lt;/h2&gt;
 &lt;p&gt;Enable typographer option to see result.&lt;/p&gt;
 &lt;p&gt;(c) (C) (r) (R) (tm) (TM) (p) (P) +-&lt;/p&gt;
@@ -106,7 +106,7 @@ line 3 of code
 &lt;pre&gt;&lt;code&gt;Sample text here...
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Syntax highlighting&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; bar&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; bar&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Tables&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -158,13 +158,13 @@ line 3 of code
 &lt;p&gt;&lt;a href=&quot;http://nodeca.github.io/pica/demo/&quot; title=&quot;title text!&quot;&gt;link with title&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Autoconverted link &lt;a href=&quot;https://github.com/nodeca/pica&quot;&gt;https://github.com/nodeca/pica&lt;/a&gt; (enable linkify to see)&lt;/p&gt;
 &lt;h2&gt;Images&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://octodex.github.com/images/minion.png&quot; alt=&quot;Minion&quot; loading=&quot;lazy&quot;&gt;&lt;br&gt;
-&lt;img src=&quot;https://octodex.github.com/images/stormtroopocat.jpg&quot; alt=&quot;Stormtroopocat&quot; title=&quot;The Stormtroopocat&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://octodex.github.com/images/minion.png&quot; alt=&quot;Minion&quot; loading=&quot;lazy&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://octodex.github.com/images/stormtroopocat.jpg&quot; alt=&quot;Stormtroopocat&quot; title=&quot;The Stormtroopocat&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Like links, Images also have a footnote style syntax&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://octodex.github.com/images/dojocat.jpg&quot; alt=&quot;Alt text&quot; title=&quot;The Dojocat&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://octodex.github.com/images/dojocat.jpg&quot; alt=&quot;Alt text&quot; title=&quot;The Dojocat&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;With a reference later in the document defining the URL location:&lt;/p&gt;
 &lt;h2&gt;Plugins&lt;/h2&gt;
-&lt;p&gt;The killer feature of &lt;code&gt;markdown-it&lt;/code&gt; is very effective support of&lt;br&gt;
+&lt;p&gt;The killer feature of &lt;code&gt;markdown-it&lt;/code&gt; is very effective support of&lt;br /&gt;
 &lt;a href=&quot;https://www.npmjs.org/browse/keyword/markdown-it-plugin&quot;&gt;syntax plugins&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-emoji&quot;&gt;Emojies&lt;/a&gt;&lt;/h3&gt;
 &lt;blockquote&gt;
@@ -192,7 +192,7 @@ line 3 of code
 &lt;p&gt;[^second]: Footnote text.&lt;/p&gt;
 &lt;h3&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-deflist&quot;&gt;Definition lists&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Term 1&lt;/p&gt;
-&lt;p&gt;:   Definition 1&lt;br&gt;
+&lt;p&gt;:   Definition 1&lt;br /&gt;
 with lazy continuation.&lt;/p&gt;
 &lt;p&gt;Term 2 with &lt;em&gt;inline markup&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;:   Definition 2&lt;/p&gt;
@@ -201,18 +201,18 @@ with lazy continuation.&lt;/p&gt;
 Third paragraph of definition 2.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;em&gt;Compact style:&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Term 1&lt;br&gt;
+&lt;p&gt;Term 1&lt;br /&gt;
 ~ Definition 1&lt;/p&gt;
-&lt;p&gt;Term 2&lt;br&gt;
-~ Definition 2a&lt;br&gt;
+&lt;p&gt;Term 2&lt;br /&gt;
+~ Definition 2a&lt;br /&gt;
 ~ Definition 2b&lt;/p&gt;
 &lt;h3&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-abbr&quot;&gt;Abbreviations&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;This is HTML abbreviation example.&lt;/p&gt;
 &lt;p&gt;It converts &amp;quot;HTML&amp;quot;, but keep intact partial entries like &amp;quot;xxxHTMLyyy&amp;quot; and so on.&lt;/p&gt;
 &lt;p&gt;*[HTML]: Hyper Text Markup Language&lt;/p&gt;
 &lt;h3&gt;&lt;a href=&quot;https://github.com/markdown-it/markdown-it-container&quot;&gt;Custom containers&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;::: warning&lt;br&gt;
-&lt;em&gt;here be dragons&lt;/em&gt;&lt;br&gt;
+&lt;p&gt;::: warning&lt;br /&gt;
+&lt;em&gt;here be dragons&lt;/em&gt;&lt;br /&gt;
 :::&lt;/p&gt;
 </content>
 	</entry>
@@ -220,7 +220,7 @@ Third paragraph of definition 2.
 	<entry>
 		<title>Lorem ipsum</title>
 		<link href="https://example.com/min-ty/lorem/"/>
-		<updated>2020-12-04T00:00:00+00:00</updated>
+		<updated>2020-12-04T00:00:00Z</updated>
 		<id>https://example.com/min-ty/lorem/</id>
 		<content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit laoreet metus vitae molestie. Praesent vel lacus eget lectus auctor vestibulum ut volutpat sapien. Morbi convallis lacinia odio. Nunc semper pulvinar eros. Donec laoreet lacinia dui, vel porta tellus ultricies nec. Nulla consequat lectus eu massa egestas, ac maximus velit tempus. Cras vulputate lorem pretium quam lobortis, eget pulvinar eros laoreet. Fusce vel dignissim mauris, eget tempor dui. Fusce rutrum metus ac est faucibus, at mattis tortor cursus. Praesent dapibus, lacus nec commodo suscipit, nibh justo ultricies velit, ut accumsan erat lacus sed lectus. Fusce quis consequat ipsum. Vestibulum massa elit, efficitur dictum ligula vehicula, posuere semper magna. Vestibulum egestas gravida convallis. Donec egestas vitae nulla id aliquam. Proin non ante at ex lacinia semper ut sed dui. Nullam lacinia viverra magna, at feugiat nunc auctor vel.&lt;/p&gt;
 &lt;p&gt;Etiam pretium turpis id tellus vestibulum blandit. Vivamus maximus placerat eros ut laoreet. Vestibulum vel congue velit, quis aliquet enim. Nunc quis ex ipsum. Integer lectus nisi, posuere vitae arcu quis, gravida suscipit nibh. Fusce luctus mauris non justo varius, eu aliquet metus sagittis. Curabitur ut sollicitudin enim. Sed ipsum ipsum, tincidunt eu mattis id, viverra id arcu. Nunc sodales vestibulum lectus commodo sollicitudin. Phasellus ac urna interdum, porttitor ex id, malesuada libero. Vivamus nec facilisis diam. Pellentesque libero risus, vehicula ac interdum eu, egestas ut est.&lt;/p&gt;
