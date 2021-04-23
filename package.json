@@ -17,7 +17,7 @@
   "homepage": "https://chuduk-alex.github.io/min-ty",
   "license": "Unlicense",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-rss": "^1.1.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
     "luxon": "^1.26.0",
