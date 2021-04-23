@@ -14,11 +14,10 @@ layout: _layouts/base
 </article>
 
 {%- set previousPost = collections.all | getPreviousCollectionItem(page) %}
-{%- if previousPost %}
-<a href="{{ previousPost.url | url }}" rel="prev">← {{ previousPost.data.title }}</a>
-{% endif %}
-
 {%- set nextPost = collections.all | getNextCollectionItem(page) %}
-{%- if nextPost %}
-<a href="{{ nextPost.url | url }}" rel="next">{{ nextPost.data.title }} →</a>
+
+{%- if previousPost or nextPost %}
+<p>
+<span aria-hidden="true">{ </span>{%- if previousPost %}<span>"previous": </span><a href="{{ previousPost.url | url }}" rel="prev">"{{ previousPost.data.title }}"</a>{% endif %}{%- if previousPost and nextPost %}<span aria-hidden="true">, </span>{% endif %}{%- if nextPost %}<span>"next": </span><a href="{{ nextPost.url | url }}" rel="next">"{{ nextPost.data.title }}"</a>{% endif %}<span aria-hidden="true"> }</span>
+</p>
 {% endif %}

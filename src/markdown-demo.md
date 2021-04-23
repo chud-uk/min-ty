@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Markdown Demo
-summary: Markdown showcase page
 date: 2020-12-06
 ---
 [toc]

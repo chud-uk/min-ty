@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Lorem ipsum
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 date: 2020-12-04
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit laoreet metus vitae molestie. Praesent vel lacus eget lectus auctor vestibulum ut volutpat sapien. Morbi convallis lacinia odio. Nunc semper pulvinar eros. Donec laoreet lacinia dui, vel porta tellus ultricies nec. Nulla consequat lectus eu massa egestas, ac maximus velit tempus. Cras vulputate lorem pretium quam lobortis, eget pulvinar eros laoreet. Fusce vel dignissim mauris, eget tempor dui. Fusce rutrum metus ac est faucibus, at mattis tortor cursus. Praesent dapibus, lacus nec commodo suscipit, nibh justo ultricies velit, ut accumsan erat lacus sed lectus. Fusce quis consequat ipsum. Vestibulum massa elit, efficitur dictum ligula vehicula, posuere semper magna. Vestibulum egestas gravida convallis. Donec egestas vitae nulla id aliquam. Proin non ante at ex lacinia semper ut sed dui. Nullam lacinia viverra magna, at feugiat nunc auctor vel.

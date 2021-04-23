@@ -21,11 +21,10 @@
         }
       }
       body {
-        max-width: 65ch;
+        max-width: 57ch;
         margin: 1rem auto;
-        padding: 0 0.75rem;
         font-size: min(calc(14px + 0.5vw), 22px);
-        line-height: 1.5;
+        line-height: 1.3;
         font-family: sans-serif;
         color: var(--font-color);
         background-color: var(--background-color);
@@ -41,10 +40,13 @@
         height: auto;
         display: block;
       }
-      article > :not(pre), header, body > a {
+      article > :not(pre),
+      header,
+      body > :not(article) {
         padding: 0 1rem;
       }
-      article > blockquote, blockquote {
+      article > blockquote,
+      blockquote {
           margin: 1rem 0;
           padding: 0 0.7rem;
           border-left: 0.3rem solid var(--accent-color);
@@ -55,6 +57,14 @@
       ul, ol {
         padding-left: 1rem;
       }
+      @media (max-width: 70ch) {
+        body > ul,
+        body > ol,
+        article > ul,
+        article > ol  {
+          margin-left: 1rem;
+        }
+      }
     </style>
     {% ifContentWithCode content %}
       <link href="{{ '/prism-nord.css' | url }}" rel="stylesheet">
@@ -62,8 +72,11 @@
   </head>
   <body>
     <header>
-      <a href="{{ '/' | url }}">{{ metadata.title }}</a>
-      <a href="{{ metadata.xmlFeedPath | url }}" style="float: right;">rss</a>
+      <nav>
+        <span aria-hidden="true">[ </span>
+        <a href="{{ '/' | url }}">"home"</a><span aria-hidden="true">, </span>
+        <a href="{{ metadata.xmlFeedPath | url }}">"rss"</a><span aria-hidden="true"> ]</span>
+      </nav>
     </header>
 
     {{ content | safe }}

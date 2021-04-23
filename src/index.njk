@@ -2,18 +2,24 @@
 layout: _layouts/base
 eleventyExcludeFromCollections: true
 ---
-{%- for post in collections.all | reverse -%}
 <article>
-  <header>
-    <h1>
-      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-    </h1>
-    <time datetime="{{ post.date | htmlDateString }}">
-      {{ post.date | readableDate }}
-    </time>
-  </header>
-  <p>
-    {{ post.data.summary }}
-  </p>
+<h1>
+  {{ metadata.title }}
+</h1>
+<p>
+  {{ metadata.description }}
+</p>
 </article>
+
+<ul>
+{%- for post in collections.all | reverse -%}
+  <li>
+    <p>
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      <time datetime="{{ post.date | htmlDateString }}">
+        {{ post.date | readableDate }}
+      </time>
+    </p>
+  </li>
 {%- endfor -%}
+</ul>
