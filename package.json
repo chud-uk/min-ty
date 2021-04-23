@@ -1,6 +1,6 @@
 {
   "name": "min-ty",
-  "description": "A starter repository for a minimalistic blog using the Eleventy static site generator",
+  "description": "Another minimalistic template for the eleventy static site generator",
   "version": "0.0.1",
   "scripts": {
     "start": "eleventy --serve",

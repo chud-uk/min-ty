@@ -1,37 +1,21 @@
 # Min-ty
 
-A template repository for the [eleventy](https://www.11ty.dev) static site generator
+Another template for the [eleventy](https://www.11ty.dev) static site generator
 
-## Getting Started
+## Features
 
-### 1. Clone this Repository
+* 0 lines of javascript in the resulting bundle
+* dark theme
+* native image lazy loading with the loading="lazy" attribute
+* lighthouse scores 100 * 4
+* Github hooks for lighthouse scores and deployment to Github pages
+* RSS feed & JSON feed
 
-```
-git clone https://github.com/chuduk-alex/min-ty.git my-blog-name
-```
-
-### 2. Navigate to the directory
-
-```
-cd my-blog-name
-```
-
-### 3. Install dependencies
-
-```
-npm install
-```
-
-### 4. Npm scripts
+## Npm scripts
 
 Build site
 ```
 npm run build
-```
-
-Build with debug
-```
-npm run debug
 ```
 
 Build and host locally for local development
@@ -39,11 +23,6 @@ Build and host locally for local development
 npm run start
 ```
 
-Watch mode
-```
-npm run Watch
-```
+## Documentation
 
-### 5. Look at config
-
-Eleventy configuration located at `.eleventy.js`.
+TODO: add documentation
