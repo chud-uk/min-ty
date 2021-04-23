@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Markdown showcase page">
+    <meta name="description" content="Min-ty blog description">
     <link rel="icon" href="/min-ty/favicon.ico">
     <title>Markdown Demo</title>
     <style>
@@ -21,11 +21,10 @@
         }
       }
       body {
-        max-width: 65ch;
+        max-width: 57ch;
         margin: 1rem auto;
-        padding: 0 0.75rem;
         font-size: min(calc(14px + 0.5vw), 22px);
-        line-height: 1.5;
+        line-height: 1.3;
         font-family: sans-serif;
         color: var(--font-color);
         background-color: var(--background-color);
@@ -41,10 +40,13 @@
         height: auto;
         display: block;
       }
-      article > :not(pre), header, body > a {
+      article > :not(pre),
+      header,
+      body > :not(article) {
         padding: 0 1rem;
       }
-      article > blockquote, blockquote {
+      article > blockquote,
+      blockquote {
           margin: 1rem 0;
           padding: 0 0.7rem;
           border-left: 0.3rem solid var(--accent-color);
@@ -55,6 +57,14 @@
       ul, ol {
         padding-left: 1rem;
       }
+      @media (max-width: 70ch) {
+        body > ul,
+        body > ol,
+        article > ul,
+        article > ol  {
+          margin-left: 1rem;
+        }
+      }
     </style>
     
       <link href="/min-ty/prism-nord.css" rel="stylesheet">
@@ -62,8 +72,11 @@
   </head>
   <body>
     <header>
-      <a href="/min-ty/">Min-ty blog template</a>
-      <a href="/min-ty/feed.xml" style="float: right;">rss</a>
+      <nav>
+        <span aria-hidden="true">[ </span>
+        <a href="/min-ty/">"home"</a><span aria-hidden="true">, </span>
+        <a href="/min-ty/feed.xml">"rss"</a><span aria-hidden="true"> ]</span>
+      </nav>
     </header>
 
     <article>
@@ -273,7 +286,9 @@ Third paragraph of definition 2.
 :::</p>
 
 </article>
-<a href="/min-ty/lorem/" rel="prev">← Lorem ipsum</a>
+<p>
+<span aria-hidden="true">{ </span><span>"previous": </span><a href="/min-ty/lorem/" rel="prev">"Lorem ipsum"</a><span aria-hidden="true"> }</span>
+</p>
 
 
   </body>

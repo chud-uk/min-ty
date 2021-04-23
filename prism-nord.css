@@ -30,7 +30,6 @@ pre {
 	padding: 1rem;
 	margin: .5rem 0;
 	overflow: auto;
-	border-radius: 0.3rem;
 }
 
 :not(pre) > code,
